@@ -78,6 +78,7 @@
 </nav>
 
 
+
 <section class="hero">
   <div class="hero-body">
     <div class="container is-max-desktop">
@@ -155,6 +156,20 @@ Robots often operate in the same area, such as a kitchen. By first learning a ba
     <!--/ Paper video. -->
   </div>
 </section>
+
+
+<section class="section">
+<div class="container is-max-desktop">
+
+<h2 class="title is-3">Video </h2>
+<div class="publication-video">
+  <iframe src="https://www.youtube.com/embed/oA2CkRFI61c?rel=0&amp;showinfo=0"
+          frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+</section>
+
+
+
 
 
 <section class="section">
@@ -286,6 +301,138 @@ Robots often operate in the same area, such as a kitchen. By first learning a ba
     </div>
   </div>
 </section>
+
+<section class="section">
+<div class="container is-max-desktop">
+<h2 class="title is-3">Quantitative Evaluation</h2>
+  <head>
+      <style>
+          table {
+    border-collapse: collapse;
+    width: 48%;
+  }
+
+  th, td {
+    border: 1px solid black; /* Set the border for all cells. */
+  }
+
+  th, td {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+  }
+
+  .table-container { 
+            display: flex; 
+            justify-content: space-between; 
+        } 
+
+  /* Add horizontal borders as needed */
+  tr:first-child th {
+    border-top: 1px solid black;
+  }
+
+  tr:nth-child(2) td {
+    border-top: 1px solid black;
+  }
+
+  tr:nth-child(3) td {
+    border-top: 1px solid black;
+  }
+
+  tr:last-child td {
+    border-bottom: 1px solid black;
+  }
+
+      </style>
+  </head>
+
+
+
+  <div class="table-container">
+  <table>
+      <tr>
+          <td> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;	</td>
+          <td>Bowl	&emsp;	</td>
+          <td>Drink Flat &emsp;	</td>
+          <td>Drink Up &emsp;	</td>
+          <td>Wine Flat &emsp;	</td>
+      </tr>
+
+  <tr>
+      <td>Method</td>
+      <td colspan="4" style="text-align: center;">RMSE &darr;</td>
+    </tr>
+
+          <td>NeRF &emsp;	</td>
+          <td>0.1900 &emsp;	</td>
+          <td>0.6398 &emsp;	</td>
+          <td>0.4361 &emsp;	</td>
+          <td>0.2166 &emsp;	</td>
+      </tr>
+      <tr>
+          <td>Dex-NeRF	</td>
+          <td>0.0365	</td>
+          <td>0.1065	</td>
+          <td>0.0699	</td>
+          <td>0.0425	</td>
+      </tr>
+      <tr>
+          <td>Residual-NeRF	</td>
+          <td><b>0.0213	</td>
+          <td><b>0.0234	</td>
+          <td><b>0.0316	</td>
+          <td><b>0.0388	</td>
+      </tr>
+  </table>
+
+  <table>
+    <tr>
+        <td> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;	</td>
+        <td>Bowl	&emsp;	</td>
+        <td>Drink Flat &emsp;	</td>
+        <td>Drink Up &emsp;	</td>
+        <td>Wine Flat &emsp;	</td>
+    </tr>
+
+<tr>
+    <td>Method</td>
+    <td colspan="4" style="text-align: center;">MAE &darr;</td>
+  </tr>
+
+        <td>NeRF &emsp;	</td>
+        <td>0.1453 &emsp;	</td>
+        <td>0.3424 &emsp;	</td>
+        <td>0.3062 &emsp;	</td>
+        <td>0.1483 &emsp;	</td>
+    </tr>
+    <tr>
+        <td>Dex-NeRF	</td>
+        <td>0.0195	</td>
+        <td>0.0189	</td>
+        <td>0.0255	</td>
+        <td>0.0255	</td>
+    </tr>
+    <tr>
+        <td>Residual-NeRF	</td>
+        <td><b>0.0140	</td>
+        <td><b>0.0138	</td>
+        <td><b>0.0170	</td>
+        <td><b>0.0142	</td>
+    </tr>
+</table>
+  </div>
+
+
+</div>
+
+
+
+
+</section>
+
+
 
 
 
