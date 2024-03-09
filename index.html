@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
   <meta charset="utf-8">
   <meta name="description"
         content="Residual-NeRF: Learning Residual NeRFs
@@ -8,6 +8,8 @@
   <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Residual-NeRF: Learning Residual NeRFs for Transparent Object Manipulation</title>
+  <!-- subtitle-->
+  <!-- Different font, comment out if desired-->
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script> -->
@@ -39,6 +41,8 @@
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
+
+  
 </head>
 <body>
 
@@ -66,15 +70,6 @@
           <a class="navbar-item" href="https://md-splatting.github.io">
              MD-Splatting
           </a>
-          <!-- <a class="navbar-item" href="https://nerfies.github.io"> -->
-            <!-- Nerfies -->
-          <!-- </a> -->
-          <!-- <a class="navbar-item" href="https://latentfusion.github.io"> -->
-            <!-- LatentFusion -->
-          <!-- </a> -->
-          <!-- <a class="navbar-item" href="https://photoshape.github.io"> -->
-            <!-- PhotoShape -->
-          <!-- </a> -->
         </div>
       </div>
     </div>
@@ -90,6 +85,7 @@
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title">Residual-NeRF: Learning Residual NeRFs
             for Transparent Object Manipulation</h1>
+          <h2 class="subtitle is-3">ICRA 2024</h2> <!-- Added subtitle -->
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://bart-ai.com">Bardienus P. Duisterhof</a><sup>1</sup>,</span>
@@ -98,7 +94,7 @@
             <span class="author-block">
               <a href="https://www.ri.cmu.edu/ri-people/si-heng-teng/">Si Heng Teng</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://ichnow.ski">Jeffrey Ichnowski</a><sup>1</sup>,</span>
+              <a href="https://ichnow.ski">Jeffrey Ichnowski</a><sup>1</sup></span>
           
             </div>
 
@@ -108,55 +104,6 @@
 
           <div class="column has-text-centered">
             <div class="publication-links">
-              <!-- PDF Link. -->
-              <!-- <span class="link-block">
-                <a href="https://arxiv.org/pdf/2011.12948"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fas fa-file-pdf"></i>
-                  </span>
-                  <span>Paper</span>
-                </a>
-              </span> -->
-              <!-- <span class="link-block">
-                <a href="https://arxiv.org/abs/2011.12948"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span> -->
-              <!-- Video Link. -->
-              <!-- <span class="link-block">
-                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
-                </a>
-              </span> -->
-              <!-- Code Link. -->
-              <!-- <span class="link-block">
-                <a href="https://github.com/google/nerfies"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-github"></i>
-                  </span>
-                  <span>Code</span>
-                  </a>
-              </span> -->
-              <!-- Dataset Link. -->
-              <!-- <span class="link-block">
-                <a href="https://github.com/google/nerfies/releases/tag/0.1"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="far fa-images"></i>
-                  </span>
-                  <span>Data</span>
-                  </a>
-            </div> -->
 
           </div>
         </div>
@@ -167,63 +114,6 @@
 
 
 
-<!-- <section class="hero is-light is-small"> -->
-  <!-- <div class="hero-body"> -->
-    <!-- <div class="container"> -->
-      <!-- <div id="results-carousel" class="carousel results-carousel"> -->
-        <!-- <div class="item item-steve"> -->
-          <!-- <video poster="" id="steve" autoplay controls muted loop playsinline height="100%"> -->
-            <!-- <source src="./static/videos/steve.mp4" -->
-                    <!-- type="video/mp4"> -->
-          <!-- </video> -->
-        <!-- </div> -->
-        <!-- <div class="item item-chair-tp"> -->
-          <!-- <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%"> -->
-            <!-- <source src="./static/videos/chair-tp.mp4" -->
-                    <!-- type="video/mp4"> -->
-          <!-- </video> -->
-        <!-- </div> -->
-        <!-- <div class="item item-shiba"> -->
-          <!-- <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%"> -->
-            <!-- <source src="./static/videos/shiba.mp4" -->
-                    <!-- type="video/mp4"> -->
-          <!-- </video> -->
-        <!-- </div> -->
-        <!-- <div class="item item-fullbody"> -->
-          <!-- <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%"> -->
-            <!-- <source src="./static/videos/fullbody.mp4" -->
-                    <!-- type="video/mp4"> -->
-          <!-- </video> -->
-        <!-- </div> -->
-        <!-- <div class="item item-blueshirt"> -->
-          <!-- <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%"> -->
-            <!-- <source src="./static/videos/blueshirt.mp4" -->
-                    <!-- type="video/mp4"> -->
-          <!-- </video> -->
-        <!-- </div> -->
-        <!-- <div class="item item-mask"> -->
-          <!-- <video poster="" id="mask" autoplay controls muted loop playsinline height="100%"> -->
-            <!-- <source src="./static/videos/mask.mp4" -->
-                    <!-- type="video/mp4"> -->
-          <!-- </video> -->
-        <!-- </div> -->
-        <!-- <div class="item item-coffee"> -->
-          <!-- <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%"> -->
-            <!-- <source src="./static/videos/coffee.mp4" -->
-                    <!-- type="video/mp4"> -->
-          <!-- </video> -->
-        <!-- </div> -->
-        <!-- <div class="item item-toby"> -->
-          <!-- <video poster="" id="toby" autoplay controls muted loop playsinline height="100%"> -->
-            <!-- <source src="./static/videos/toby2.mp4" -->
-                    <!-- type="video/mp4"> -->
-          <!-- </video> -->
-        <!-- </div> -->
-      <!-- </div> -->
-    <!-- </div> -->
-  <!-- </div> -->
-<!-- </section> -->
-
 
 <section class="section">
   <div class="container is-max-desktop">
@@ -233,39 +123,18 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-          Transparent objects are ubiquitous in industry,
-          pharmaceuticals, and households. Grasping and manipulat-
-          ing these objects is a major challenge for robots. Existing
-          methods have difficulty reconstructing complete depth maps
-          for challenging transparent objects, leaving holes in the depth
-          reconstruction. Recent work has shown neural radiance fields
-          (NeRFs) work well for depth perception in scenes with trans-
-          parent objects, and these depth maps can be used to grasp
-          transparent objects with high accuracy. NeRF-based depth
-          reconstruction struggles with especially challenging transparent
-          objects and lighting conditions.
+Transparent objects are ubiquitous in industry, pharmaceuticals, and households. Grasping and manipulating these objects is a significant challenge for robots. Existing methods have difficulty reconstructing complete depth maps for challenging transparent objects, leaving holes in the depth reconstruction. Recent work has shown neural radiance fields (NeRFs) work well for depth perception in scenes with transparent objects, and these depth maps can be used to grasp transparent objects with high accuracy. NeRF-based depth reconstruction can still struggle with especially challenging transparent objects and lighting conditions.
           </p>
+
           <p>
-          In this work, we introduce Residual-NeRF, a NeRF algorithm
-          that leverages images from the scene without transparent
-          objects. It is a common use case for robots to return to the
-          same area, such as a kitchen. By learning a background NeRF
-          of the scene without the transparent object, we reduce the
-          ambiguity faced by the residual NeRF. The residual NeRF
-          learns to infer residual RGB values and densities, and the
-          Mixnet learns how to combine background and residual NeRFs.
-          We contribute synthetic and real experiments that suggest
-          the background NeRF scene improves depth perception of
-          transparent objects. We also show examples where the improved
-          depth perception led to better grasp robustness. 
+In this work, we propose Residual-NeRF, a method to improve depth perception and training speed for transparent objects.
+Robots often operate in the same area, such as a kitchen. By first learning a background NeRF of the scene without transparent objects to be manipulated, we reduce the ambiguity faced by learning the changes with the new object. We propose training two additional networks: a residual NeRF learns to infer residual RGB values and densities, and a Mixnet learns how to combine background and residual NeRFs. We contribute synthetic and real experiments that suggest Residual-NeRF improves depth perception of transparent objects. The results on synthetic data suggest Residual-NeRF outperforms the baselines with a 46.1% lower RMSE and a 29.5% lower MAE. Real-world qualitative experiments suggest Residual-NeRF leads to more robust depth maps with less noise and fewer holes.
+
+
+          
           </p>
         
         </div>
-      </div>
-    </div>
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3" style="color: rgb(8, 117, 154);">More soon!</h2>
       </div>
     </div>
     
@@ -288,6 +157,135 @@
 </section>
 
 
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3">Visual Comparisons</h2>
+    <div class="content has-text-justified">
+      <p>
+
+      </p>
+    </div>
+    <div class="columns is-centered">
+      <!-- Visual Effects. -->
+      <div class="column">
+        <div class="content">
+          <div class="columns is-centered">
+            <div class="column is-full-width">
+              <div id="example1" class="bal-container-small">
+      
+                <div class="bal-after">
+                  <img src="content/images/comparisons/bowl_ours_looped.gif">
+                  <div class="bal-afterPosition afterLabel">
+                    Residual-NeRF
+                  </div>
+                </div>
+              
+                <div class="bal-before">
+                  <div class="bal-before-inset">
+                  <img src="content/images/comparisons/bowl_nerf_looped.gif">
+                    <div class="bal-beforePosition beforeLabel">
+                      NeRF [Mildenhall 2020]
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="bal-handle">
+                  <span class=" handle-left-arrow"></span>
+                  <span class="handle-right-arrow"></span>
+                </div>
+              
+              </div>
+
+
+              <div id="example2" class="bal-container-small">
+      
+                <div class="bal-after">
+                  <img src="content/images/comparisons/wine_ours_looped.gif">
+                  <div class="bal-afterPosition afterLabel">
+                    Residual-NeRF
+                  </div>
+                </div>
+              
+                <div class="bal-before">
+                  <div class="bal-before-inset">
+                  <img src="content/images/comparisons/wine_dex_looped.gif">
+                    <div class="bal-beforePosition beforeLabel">
+                      Dex-NeRF [Ichnowski 2021]
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="bal-handle">
+                  <span class=" handle-left-arrow"></span>
+                  <span class="handle-right-arrow"></span>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!--/ Visual Effects. -->
+
+      <!-- Matting. -->
+      <div class="column">
+        <div class="columns is-centered">
+          <div class="column content">
+           
+            <div id="example4" class="bal-container-small">
+              <div class="bal-after">
+                <img src="content/images/comparisons/drink_flat_ours_looped.gif">
+                <div class="bal-afterPosition afterLabel">
+                  Residual-NeRF
+                </div>
+              </div>
+            
+              <div class="bal-before">
+                <div class="bal-before-inset">
+                <img src="content/images/comparisons/drink_flat_nerf_looped.gif">
+                  <div class="bal-beforePosition beforeLabel">
+                    NeRF [Mildenhall 2020]
+                  </div>
+                </div>
+              </div>
+            
+              <div class="bal-handle">
+                <span class=" handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            
+            </div>
+
+            <div id="example5" class="bal-container-small">
+              <div class="bal-after">
+                <img src="content/images/comparisons/drink_up_ours_looped.gif">
+                <div class="bal-afterPosition afterLabel">
+                  Ours
+                </div>
+              </div>
+            
+              <div class="bal-before">
+                <div class="bal-before-inset">
+                <img src="content/images/comparisons/drink_up_dex_looped.gif">
+                  <div class="bal-beforePosition beforeLabel">
+                    Dex-NeRF [Ichnowski 2021]
+                  </div>
+                </div>
+              </div>
+            
+              <div class="bal-handle">
+                <span class=" handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
@@ -315,6 +313,25 @@
     </div>
   </div>
 </footer>
+
+<script src="static/js/script.js"></script>
+
+<script>
+    new BeforeAfter({
+        id: '#example1'
+    });
+    new BeforeAfter({
+        id: '#example2'
+    });
+    new BeforeAfter({
+        id: '#example4'
+    });
+    new BeforeAfter({
+        id: '#example5'
+    });
+
+</script>
+
 
 </body>
 </html>
