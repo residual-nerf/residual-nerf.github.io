@@ -129,7 +129,7 @@ Transparent objects are ubiquitous in industry, pharmaceuticals, and households.
 
           <p>
 In this work, we propose Residual-NeRF, a method to improve depth perception and training speed for transparent objects.
-Robots often operate in the same area, such as a kitchen. By first learning a background NeRF of the scene without transparent objects to be manipulated, we reduce the ambiguity faced by learning the changes with the new object. We propose training two additional networks: a residual NeRF learns to infer residual RGB values and densities, and a Mixnet learns how to combine background and residual NeRFs. We contribute synthetic and real experiments that suggest Residual-NeRF improves depth perception of transparent objects. The results on synthetic data suggest Residual-NeRF outperforms the baselines with a 46.1% lower RMSE and a 29.5% lower MAE. Real-world qualitative experiments suggest Residual-NeRF leads to more robust depth maps with less noise and fewer holes.
+Robots often operate in the same area, such as a kitchen. By first learning a background NeRF of the scene without transparent objects to be manipulated, we reduce the ambiguity faced by learning the changes with the new object. We propose training two additional networks: a residual NeRF learns to infer residual RGB values and densities, and a Mixnet learns how to combine background and residual NeRFs. We contribute synthetic and real experiments that suggest Residual-NeRF improves depth perception of transparent objects. The results on synthetic data suggest Residual-NeRF outperforms the baselines with a <b>46.1%</b> lower RMSE and a <b>29.5%</b> lower MAE. Real-world qualitative experiments suggest Residual-NeRF leads to more robust depth maps with less noise and fewer holes.
 
 
           
@@ -357,6 +357,7 @@ Robots often operate in the same area, such as a kitchen. By first learning a ba
           table {
     border-collapse: collapse;
     width: 48%;
+    margin: 15px;
   }
 
   th, td {
@@ -368,11 +369,12 @@ Robots often operate in the same area, such as a kitchen. By first learning a ba
     border-right: none;
     border-top: none;
     border-bottom: none;
+    padding: 0 15px;
   }
 
   .table-container { 
             display: flex; 
-            justify-content: space-between; 
+            justify-content: space-between;
         } 
 
   /* Add horizontal borders as needed */
@@ -433,7 +435,6 @@ Robots often operate in the same area, such as a kitchen. By first learning a ba
           <td><b>0.0388	</td>
       </tr>
   </table>
-
   <table>
     <tr>
         <td> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;	</td>
